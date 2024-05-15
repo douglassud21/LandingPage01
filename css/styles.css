@@ -54,6 +54,8 @@ header .menu a {
     padding: 2px 15px;
     border-radius: 20px;
     transition-property: background;
+    transform: scale(1);
+    transition: transform 0.3s ease;
 }
 
 header .menu a:not(:last-child) {
@@ -62,6 +64,7 @@ header .menu a:not(:last-child) {
 
 header .menu a:hover {
     background: rgb(0, 222, 252);
+    transform: scale(1.5);
 }
 
 .content {

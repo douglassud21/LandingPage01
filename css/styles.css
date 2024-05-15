@@ -47,7 +47,7 @@ header .logo {
 }
 
 header .menu a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
@@ -61,7 +61,7 @@ header .menu a:not(:last-child) {
 }
 
 header .menu a:hover {
-    background: white;
+    background: rgb(0, 222, 252);
 }
 
 .content {
@@ -80,19 +80,20 @@ header .menu a:hover {
 }
 
 .content .info p {
+    color: white;
     margin-bottom: 40px;
 }
 
 .content .info h2 span {
-    color: aqua;
+    color: rgb(0, 222, 252);
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 40px;
 }
 
 .content .info-btn {
-    color: white;
-    background: black;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
@@ -102,7 +103,9 @@ header .menu a:hover {
     transition: 0.3s;
     transition-property: background;
 }
+
 .content .info-btn:hover {
+    color: black;
     background-color: aqua;
 }
 
@@ -116,7 +119,7 @@ header .menu a:hover {
 .media-icons a {
     position: relative;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     transition: 0.3s;
     transition-property: transform;
 }
@@ -126,6 +129,7 @@ header .menu a:hover {
 }
 
 .media-icons a:hover {
+    color: rgb(0, 222, 252);
     transform: scale(1.5);
 }
 
@@ -135,6 +139,7 @@ label {
 
 #check {
     z-index: 3;
+    display: none;
 }
 
 
